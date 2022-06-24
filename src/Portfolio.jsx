@@ -1,8 +1,7 @@
+import { AppRouter } from "./router/AppRouter"
 
-const Portfolio = () => {
+export const Portfolio = () => {
   return (
-    <div>Portfolio</div>
+    <AppRouter />
   )
 }
-
-export default Portfolio
