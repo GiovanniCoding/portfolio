@@ -10,7 +10,7 @@ export const PythonPage = () => {
 
     return (
         <>
-            <div>PythonPage</div>
+            <h1>PythonPage</h1>
             <button
                 onClick={ handleShortener }
             >

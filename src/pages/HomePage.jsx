@@ -11,7 +11,7 @@ export const HomePage = () => {
 
   return (
     <>
-        <h1>HomePage - Barajas - Obeid</h1>
+        <h1>HomePage</h1>
         <button
           onClick={ handlePython }
         >

@@ -1,0 +1,26 @@
+body {
+    background-color: #EDF6F9;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+    width: 5rem;
+    height: 2rem;
+    border-style: none;
+    background-color: #EDF6F9;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #006D77;
+    color: #EDF6F9;
+}
+
+@import "settings/colors.scss";
+@import "settings/config.scss";
+
+// Components
+@import "Shortener.scss";
+@import "components/InputUrl.scss";
+@import "components/ShowUrl.scss";
