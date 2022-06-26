@@ -12,7 +12,7 @@ export const InputUrl = () => {
   }
 
   const fetchHandler = ( ) => {
-    fetch( "http://34.122.183.83:6758/shortener/?url=" + url )
+    fetch( "https://34.122.183.83:6758/shortener/?url=" + url )
       .then(res => {
         if (!res.ok) {
           throw new Error("HTTP status " + res.status);
